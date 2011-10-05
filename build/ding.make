@@ -244,7 +244,7 @@ projects[dynamo][download][revision] = "v2.2.0"
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "git@github.com:Roedovre-Bibliotekerne/alma.git"
-projects[alma][download][revision] = "v1.6.0"
+projects[alma][download][revision] = "v1.6.0-rdb1"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
