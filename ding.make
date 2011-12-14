@@ -145,7 +145,8 @@ projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git"
 projects[office_hours][download][url] = "https://github.com/dingproject/drupal-office_hours.git"
-projects[office_hours][download][tag] = "6.x-2.0-unofficial9"
+;
+projects[office_hours][download][revision] = "48b57f77c63b57e60f332118f65d72498547083e"
 
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
@@ -201,10 +202,10 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.12"
+projects[views][version] = "2.16"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.10"
+projects[views_bulk_operations][version] = "1.12"
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.11
