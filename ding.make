@@ -146,8 +146,7 @@ projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git"
 projects[office_hours][download][url] = "https://github.com/dingproject/drupal-office_hours.git"
 ;
-projects[office_hours][download][revision] = "48b57f77c63b57e60f332118f65d72498547083e"
-projects[office_hours][patch][] = "https://github.com/dingproject/drupal-office_hours/pull/4.diff"
+projects[office_hours][download][revision] = "6.x-2.0-unofficial10"
 
 projects[openlayers][subdir] = contrib
 projects[openlayers][version] = 2.0-beta1
