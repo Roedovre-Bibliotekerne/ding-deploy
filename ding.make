@@ -244,7 +244,9 @@ projects[dynamo][download][revision] = "v2.3.0"
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "https://github.com/dingproject/alma.git"
-projects[alma][download][revision] = "v1.7.0"
+; Using beta3 as the only changes between that and 1.7.0 is a change
+; that breaks periodicals reservable status.
+projects[alma][download][revision] = "v1.7.0beta3"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
