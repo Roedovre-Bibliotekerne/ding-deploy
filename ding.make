@@ -278,6 +278,12 @@ projects[webtrends][download][type] = "git"
 projects[webtrends][download][url] = "https://github.com/dingproject/webtrends.git"
 projects[webtrends][download][revision] = "v1.1.2"
 
+projects[ding_place2book][type] = "module"
+projects[ding_place2book][download][type] = "git"
+projects[ding_place2book][download][url] = "https://github.com/vejlebib/ding_place2book.git"
+projects[ding_place2book][download][revision] = "v1.0.3"
+
+
 ; Libraries
 libraries[ting-client][destination] = "modules/ting/lib"
 libraries[ting-client][download][type] = "git"
