@@ -266,7 +266,11 @@ projects[ding_campaign][download][revision] = "v1.4.0"
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
 projects[ting][download][url] = "https://github.com/Roedovre-Bibliotekerne/ting.git"
-projects[ting][download][branch] = "roedovere-online-type-hotfix"
+; Patched branch to include patches
+; - More online types: https://github.com/dingproject/ting/pull/38
+; - MoreInfo support: https://github.com/dingproject/ting/pull/40
+; Production server uses drush 3.x which cannot apply patches to git repos
+projects[ting][download][branch] = "patched"
 
 projects[trampoline][type] = "module"
 projects[trampoline][download][type] = "git"
