@@ -286,10 +286,11 @@ projects[ding_tema_sites][download][type] = git
 projects[ding_tema_sites][download][url] = https://github.com/dingproject/ding_tema_sites.git
 projects[ding_tema_sites][download][revision] = "v1.8.0"
 
+; Use local patched branch. Drush 3.x on server cannot apply patches to git repos.
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
-projects[ting][download][url] = "https://github.com/dingproject/ting.git"
-projects[ting][download][revision] = "v1.8.0"
+projects[ting][download][url] = "https://github.com/Roedovre-Bibliotekerne/ting.git"
+projects[ting][download][branch] = "patched"
 
 projects[trampoline][type] = "module"
 projects[trampoline][download][type] = "git"
