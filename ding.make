@@ -228,6 +228,10 @@ projects[redbull][type] = "theme"
 projects[redbull][download][type] = "git"
 projects[redbull][download][url] = "https://github.com/Roedovre-Bibliotekerne/redbull.git"
 
+projects[redbull_mobile][type] = "theme"
+projects[redbull_mobile][download][type] = "git"
+projects[redbull_mobile][download][url] = "https://github.com:Roedovre-Bibliotekerne/redbull-mobile.git"
+
 projects[redbull_modules][type] = "module"
 projects[redbull_modules][download][type] = "git"
 projects[redbull_modules][download][url] = "https://github.com/Roedovre-Bibliotekerne/redbull-modules.git"
