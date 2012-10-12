@@ -236,6 +236,9 @@ projects[redbull_modules][type] = "module"
 projects[redbull_modules][download][type] = "git"
 projects[redbull_modules][download][url] = "https://github.com/Roedovre-Bibliotekerne/redbull-modules.git"
 
+; To solve some redirect issues we upgrade mobile_tools
+projects[mobile_tools][version] = 2.4
+
 projects[memcache][subdir] = "contrib"
 projects[memcache][version] = "1.8"
 
