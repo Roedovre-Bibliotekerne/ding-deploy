@@ -259,7 +259,8 @@ projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "https://github.com/dingproject/alma.git"
 projects[alma][download][revision] = "v1.8.0"
-projects[alma][download][patch][] = "https://raw.github.com/Roedovre-Bibliotekerne/ding-deploy/master/patches/adding_more_reservable_statuses.patch"
+projects[alma][patch][] = "https://raw.github.com/Roedovre-Bibliotekerne/ding-deploy/master/patches/adding_more_reservable_statuses.patch"
+
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
