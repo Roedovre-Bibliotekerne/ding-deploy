@@ -257,10 +257,8 @@ projects[dynamo][download][revision] = "v2.4.0-rc2"
 
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
-projects[alma][download][url] = "https://github.com/dingproject/alma.git"
-projects[alma][download][revision] = "v1.8.0"
-projects[alma][patch][] = "https://raw.github.com/Roedovre-Bibliotekerne/ding-deploy/master/patches/adding_more_reservable_statuses.patch"
-
+projects[alma][download][url] = "https://github.com/Roedovre-Bibliotekerne/alma.git"
+projects[alma][download][branch] = "patched"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
