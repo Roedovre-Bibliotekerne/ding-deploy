@@ -258,7 +258,6 @@ projects[dynamo][download][revision] = "v2.4.0-rc2"
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
 projects[alma][download][url] = "https://github.com/Roedovre-Bibliotekerne/alma.git"
-projects[alma][download][branch] = "patched"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
