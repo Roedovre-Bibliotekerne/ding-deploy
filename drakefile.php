@@ -148,7 +148,7 @@ $tasks['import-file'] = array(
  * Custom sanitation function. Invoked by our own import-db.
  */
 $tasks['sanitize'] = array(
-  'depends' => array('reload-ding-fix-error-level', 'sanitize-drush', 'reload-fix-mobile-tools'),
+  'depends' => array('reload-disable-old-mobile-tools', 'reload-ding-fix-error-level', 'sanitize-drush', 'reload-fix-mobile-tools'),
   'help' => 'Sanitizes database post-import.',
 );
 
