@@ -148,7 +148,12 @@ $tasks['import-file'] = array(
  * Custom sanitation function. Invoked by our own import-db.
  */
 $tasks['sanitize'] = array(
-  'depends' => array('reload-disable-old-mobile-tools', 'reload-ding-fix-error-level', 'sanitize-drush', 'reload-fix-mobile-tools'),
+  'depends' => array(
+    'reload-disable-old-mobile-tools',
+    'reload-ding-fix-error-level',
+    'sanitize-drush',
+    'reload-fix-mobile-tools',
+  ),
   'help' => 'Sanitizes database post-import.',
 );
 
@@ -162,7 +167,12 @@ $tasks['sanitize-drush'] = array(
     // Same for memcache_admin.
     array(
       'command' => 'pm-disable',
-      'args' => array('trampoline', 'memcache_admin', 'securepages', 'y' => TRUE),
+      'args' => array(
+        'trampoline',
+        'memcache_admin',
+        'securepages',
+        'y' => TRUE,
+      ),
     ),
     // Set site name to "Rødovre Bibliotek [hostname]"
     array(
